@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    for (int i = 1; i < 223; i++) {
+        for (int j = 1; j < 223; j++) {
+            for (int k = 1; k < 223; k++) {
+                if (i*i + j*j + k*k == 11339) {
+                    printf("%d %d %d", i, j, k);
+                    return 0;
+                }
+            }
+        }
+    }
+}
