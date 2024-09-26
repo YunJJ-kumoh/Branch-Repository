@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    for (short i = 0; i < 28; i++) {
+    for (short j = 0; j < 29; j++) {
+        printf("%hd %hd\n", -8140 + i * 581, -8140 + j * 581);
+    } }
+    printf("8128 7547\n8128 8127");
+}
